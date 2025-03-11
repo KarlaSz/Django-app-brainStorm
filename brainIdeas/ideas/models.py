@@ -16,6 +16,10 @@ class Idea(models.Model):
     youtube_url = models.URLField(null=True, blank=True)
     status = models.CharField(choices=IDEA_STATUS, max_length=30, default='pending')
 
+    #z obiektu zrobic string to zrobic metode
+    def __str__(self):
+        return self.title
+
 # pomysl posiada wiele glosow - Foreign key
 class Vote(models.Model):
     idea = models.ForeignKey(Idea, on_delete=models.CASCADE)

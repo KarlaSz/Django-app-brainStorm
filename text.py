@@ -1,3 +1,4 @@
+#django framework pythona
 # pip install django
 # django-admin startproject nazwaFolderu
 
@@ -42,3 +43,10 @@
 
 
 #wpisanie w terminaly "python manage.py" - wywoluje liste dostepnych funkcji
+
+#aplikacja brainIdeas z aplikacja ideas
+#modele to takie klasy ktora kazda klasa ma odpowiadac pojedynczym tabela w bazie danych
+#migracje gdy robimy modele do roznych baz dan
+#panel admina w gjango wbudowany do zarzadzania danych
+
+#niektore rzeczy zmienia w adminie,a niektore w modelach
