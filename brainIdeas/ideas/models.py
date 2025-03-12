@@ -11,6 +11,7 @@ IDEA_STATUS = (
 )
 
 class Idea(models.Model):
+    objects = None
     title = models.CharField(max_length=255)
     description = models.TextField()
     youtube_url = models.URLField(null=True, blank=True)
@@ -22,6 +23,7 @@ class Idea(models.Model):
 
 # pomysl posiada wiele glosow - Foreign key
 class Vote(models.Model):
+    objects = None
     idea = models.ForeignKey(Idea, on_delete=models.CASCADE)
     reason = models.TextField()
 

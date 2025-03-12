@@ -50,3 +50,10 @@
 #panel admina w gjango wbudowany do zarzadzania danych
 
 #niektore rzeczy zmienia w adminie,a niektore w modelach
+
+
+#djangorestframework - wiele rzeczy dzieje sie w nim automatycznie do zarzadzania EP aPI
+#serialaizer - kazdy model ma osobny selizier
+
+#django MVT - model view template (html z css), widoki natomiast to warstwa jak kontroler w innych framework, zarzadza odbiera i zwraca rzadzania z danymi
+#widoki sa juz gotowe
