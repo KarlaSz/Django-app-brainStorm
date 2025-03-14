@@ -57,3 +57,6 @@
 
 #django MVT - model view template (html z css), widoki natomiast to warstwa jak kontroler w innych framework, zarzadza odbiera i zwraca rzadzania z danymi
 #widoki sa juz gotowe
+
+#tworzenie pliku
+#pip freeze > requirements.txt
